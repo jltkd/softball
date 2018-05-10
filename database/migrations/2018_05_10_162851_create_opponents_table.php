@@ -21,6 +21,9 @@ class CreateOpponentsTable extends Migration
             $table->string('coach_email');
             $table->string('coach_phone');
             $table->string('field_address');
+            $table->string('field_city');
+            $table->string('field_state');
+            $table->string('field_zip');
             $table->integer('field_number');
             $table->text('notes');
             $table->timestamps();

@@ -13,6 +13,7 @@ class GameController extends Controller
     }
 
     public function create() {
-        return view('game.create');
+        $opponents = Opponent::all(['team_name']);
+        return view('game.create', compact('opponents'));
     }
 }

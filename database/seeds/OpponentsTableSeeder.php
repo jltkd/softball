@@ -23,7 +23,10 @@ class OpponentsTableSeeder extends Seeder
                 'coach_name'    => $faker->name,
                 'coach_email'   => $faker->email,
                 'coach_phone'   => $faker->phoneNumber,
-                'field_address' => $faker->address,
+                'field_address' => $faker->streetAddress,
+                'field_city'    => $faker->city,
+                'field_state'    => $faker->state,
+                'field_zip'     => $faker->postcode,
                 'field_number'  => $faker->numberBetween(1, 5),
                 'notes'         => $faker->paragraph,
             ]);

@@ -19,6 +19,14 @@
                                     <input name="game_date" type="date" class="form-control">
                                 </div>
                                 <div class="form-group">
+                                    <label for="opponent">Opponent</label>
+                                    <select name="opponent" id="" class="form-control">
+                                        @foreach($opponents as $opponent)
+                                            <option value="{{ $opponent->team_name }}">{{ $opponent->team_name }}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                                <div class="form-group">
                                     <label for="game_time">Game Time</label>
                                     <input type="datetime-local" name="game_time" class="form-control">
                                 </div>

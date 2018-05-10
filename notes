@@ -50,3 +50,7 @@ Parents/Users
      -Phone
      -Option to add availability
      -Superuser
+
+
+Separate address into Address, City, State, Zip code.
+Add opponent id to game table

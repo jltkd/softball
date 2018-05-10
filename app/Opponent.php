@@ -15,4 +15,8 @@ class Opponent extends Model
         'field_number',
         'notes'
     ];
+
+    public function games() {
+        return $this->hasMany('App\Game');
+    }
 }
