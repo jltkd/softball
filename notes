@@ -1,0 +1,36 @@
+Home
+Games
+|-Create Game
+    |-Notify Team
+     -Date/Time
+     -Opponent
+     -Location
+     -Location Details
+     -Home/Away
+     -Arrive Early
+     -Notes
+     -Edit/Delete
+        -Player Availability by parents (List avail players per game)
+      |-Opponent Info
+        -Team Name
+        -Location
+        -Email
+        -Phone
+Roster
+ |-Add Player
+    -First Name
+    -Last Name
+    -Email
+    -Phone
+    -Jersey Number
+    -Position
+    -Notes
+    -Edit/Delete
+Chat
+ -EMails
+ -Team Chat
+ Photos
+    |-Gallery
+        -Upload Images
+        -Delete Images
+        -Print
