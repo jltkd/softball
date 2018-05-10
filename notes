@@ -34,3 +34,9 @@ Chat
         -Upload Images
         -Delete Images
         -Print
+Parents
+    |-First Name
+     -Last Name
+     -Email
+     -Phone
+     -Option to add availability
