@@ -16,6 +16,15 @@ Games
         -Location
         -Email
         -Phone
+|-Create Practice
+    |-Notify Team
+     -Date/Time
+     -Opponent
+     -Location
+     -Location Details
+     -Notes
+     -Edit/Delete
+     -Player Availability by parents (List avail players per game)
 Roster
  |-Add Player
     -First Name
@@ -34,9 +43,10 @@ Chat
         -Upload Images
         -Delete Images
         -Print
-Parents
+Parents/Users
     |-First Name
      -Last Name
      -Email
      -Phone
      -Option to add availability
+     -Superuser
